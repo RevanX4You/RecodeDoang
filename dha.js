@@ -1675,17 +1675,17 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'belipremium':
        case 'buypremium':
        case 'sewabot':
-              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+              gopeynya = Minta ke Owner
               teksnya = `*── 「 PRICE LIST 」 ──*
 
-*Tarif Premium User adalah 10K Perbulan*
+*Tarif Premium User adalah 5K Perbulan*
 *Keuntungan Premium Diantaranya:*
 ♲ *Bebas memakai fitur premium*
 ♲ *Dapat Informasi Lebih dulu akan Update, Nomor Bot Baru (Jika Terbanned), dan Lainnya*
 
 *Jika Tertarik,Kalian Bisa Bayar Melalui Metode Pembayaran di Bawah:*
-*Dana : 081220670449*
-*Gopay : scan diatas*
+*Dana : 081524805420*
+*Gopay : MINTA KE OWNER*
 *Atau Gopay pada gambar diatas*
 
 *Info Lebih Lengkap Chat Owner, Ketik ${prefix}owner*
@@ -1695,11 +1695,11 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
               break             
 //------------------< bayar menu >-------------------  
 case 'bayar':
-gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+gopeynya = -_-
 teksnya = ` *「PAYMENT」*
-• GOPAY : scan diatas
-• DANA : 081220670449
-• OVO : scan diatas
+• GOPAY : MINTA KE OWN
+• DANA : 085714897009
+• PULSA : 081524805420
 • QRISS DI ATAS 
 ━━━━━━━━━━━━━━━━━━━━`
         dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
